@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "BBQE (3,6,9)",
+    "slug": "bbqe369nu",
+    "version": "1.2.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "deploymentTarget": "13.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nife36.bbqe",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.nife36.bbqe",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e830618c-8322-4cf3-a71c-2cde22dd33e8"
+      },
+      "revenueCatPublicKeyIos": "appl_gNFmOHvscXhhhoQWpgDvVPQeLZm"
+    },
+    "owner": "ohadren"
+  }
+}
