@@ -11,16 +11,26 @@
     "preview": {
       "distribution": "internal"
     },
+    "simulator": {
+      "ios": {
+        "simulator": true,
+        "image": "macos-sequoia-15.6-xcode-26.0"
+      },
+      "distribution": "internal"
+    },
     "production": {
-      "autoIncrement": true
+      "autoIncrement": true,
+      "ios": {
+        "image": "macos-sequoia-15.6-xcode-26.0"
+      }
     }
   },
   "submit": {
     "production": {
       "ios": {
-        "ascApiKeyPath": "./AuthKey_975B82KHBM.p8",
-        "ascApiKeyIssuerId": "e461ebf7-f01a-470a-9530-48953fedd855",
-        "ascApiKeyId": "975B82KHBM"
+        "ascApiKeyPath": "$ASC_API_KEY_PATH",
+        "ascApiKeyIssuerId": "$ASC_API_KEY_ISSUER_ID",
+        "ascApiKeyId": "$ASC_API_KEY_ID"
       }
     }
   }
