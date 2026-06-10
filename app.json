@@ -20,6 +20,9 @@
       "bundleIdentifier": "com.nife36.bbqe",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
+      },
+      "entitlements": {
+        "com.apple.developer.in-app-payments": ["merchant.com.nife36.bbqe"]
       }
     },
     "android": {
